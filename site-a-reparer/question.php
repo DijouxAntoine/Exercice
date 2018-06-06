@@ -1,8 +1,12 @@
 <!-- fichier cnam/nfa083/2017-cf1/index.inc.php - 20180604-PBO -->
 
-<!-- ENTETE HTML =============================================================== --><?php
-     include("inc/entete.inc.php");
-     entete("NFA083 CF1 : Question Hébergement",1); /* pour le title et le h1 */ ?>
+<!-- ENTETE HTML =============================================================== -->
+<?php include("inc/entete.inc.php");
+
+function entetequestion ($entetequestion){
+    return $entetequestion;
+}
+     entetequestion("NFA083 CF1 : Question Hébergement",1); /* pour le title et le h1 */ ?>
 
 <!-- CONNEXION A LA BDD ======================================================== --><?php
      include("connexion.inc.php");

@@ -2,7 +2,7 @@
 
 function connexion($bddname) {
 /* variables de connexion =================================================== */
-    $serveur = 'localost';       $loginserveur = 'root';   $mdpserveur = ''; // variables connexion serveur
+    $serveur = 'localhost;'; $bddname = 'cnamcp09_nfa083cf1_2017';    $loginserveur = 'root';   $mdpserveur = '';  // variables connexion serveur
 
 
 /* connexion ================================================================ */

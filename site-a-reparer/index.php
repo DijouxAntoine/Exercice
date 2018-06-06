@@ -1,16 +1,24 @@
 <!-- fichier cnam/nfa017/2017-cf1/index.inc.php - 20180604-PBO -->
 
-<!-- ENTETE HTML =============================================================== --><?php
-     include("entete.inc.php");
-     entete("NFA083 CF1 : Présentation hébergeur",0); /* pour le title et le h1 */ ?>
+<!-- ENTETE HTML =============================================================== -->
+
+<?php include("entete.inc.php");
+
+function entete ($entete){
+    return $entete;
+}
+
+echo entete("NFA083 CF1 : Présentation hébergeur",0);
+
+/* pour le title et le h1 */ ?>
 
 <!-- PRESENTATION Hébergeur ============================================================== -->
   <section><h2>Informations sur mon hébergeur</h2>
-           <p><strong>Nom : </strong> Gandi</p>
-           <p><strong>Logo : </strong> <img src="img/gandi.jpg" /></p>
-           <p><strong>Siège social : </strong> 63, 65 Boulevard Massena 75013 Paris</p>
+           <p><strong>Nom : </strong> firstheberg.com</p>
+           <p><strong>Logo : </strong> <img src="img/fh.PNG" /></p>
+           <p><strong>Siège social : </strong> Chemin du noir mouton 59300 VALENCIENNES</p>
            <p><strong>Lien d'inscription : </strong>
-           <a href="https://www.gandi.net/fr/simple-hosting" target="_blanck" >Inscription Gandi</a></p>
+           <a href="https://www.firstheberg.com/fr/hebergement-mutualise-gratuit" target="_blanck" >Inscription FirstHeberg.com</a></p>
   </section>
   <section><h2>Informations sur la page question.php</h2>
            <p><strong>Temps de chargement total en ms( https://tools.pingdom.com/ ): </strong> 2 050 s</p>
@@ -24,7 +32,7 @@
   </section>
   <section><h2>Complément d'information</h2>
            <p><strong>Une question complémentaire ? </strong> 
-              <a href="questions.php" id="question" class="actif">Poser une question</a>
+              <a href="question.php" id="question" class="actif">Poser une question</a>
            </p>
   </section>
   
